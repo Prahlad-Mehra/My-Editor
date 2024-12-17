@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     margin:0px;
     background-color:#151515;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h5{
     display: inline;
@@ -84,7 +86,9 @@ input:hover{
     background-color:#232334;
     border-right:2px solid;
     border-color:#3d3d51;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .sideIcons{
     color:white;
@@ -100,7 +104,7 @@ input:hover{
     cursor: pointer;
     border-right:2px solid rgb(151, 255, 255);
 }
-#editor{
+#explorer{
     position: fixed;
     height:100vh;
     left:3.1vw;
@@ -108,4 +112,24 @@ input:hover{
     width:11rem;
     background-color:#232334;
     z-index:-1;
+}
+#lower{
+    position: relative;
+    top:-3rem;
+    color:white;
+    left:50%;
+    font-size: large;
+    width:15px;
+}
+.exp{
+    color: #b0b0b0;
+    font-weight:100;
+    font-size:small;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #3d3d51;
 }
