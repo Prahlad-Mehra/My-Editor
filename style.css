@@ -1,0 +1,111 @@
+body{
+    margin:0px;
+    background-color:#151515;
+    font-family: sans-serif;
+}
+h5{
+    display: inline;
+    font-size: medium;
+}
+
+#navbar{
+    /* background-color: #232334; */
+    background-color: #232533;
+    width:100%;
+    margin:0px;
+    position:fixed;
+    height:2.4rem;
+    border-bottom:1px solid;
+    border-color:#3d3d51;
+    color:rgb(191, 191, 191);
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 8rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+}
+.table{
+    display: inline;
+    padding-right: 7px;
+    padding-left:7px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    font-size: smaller;
+}
+.table:hover{
+    cursor: pointer;
+    color:rgb(57, 187, 187);
+    background-color: #191926;
+}
+button{
+    cursor: pointer;
+    color:rgb(223, 223, 223);
+    background-color: transparent;
+    border-radius: 30%;
+    border-color:transparent;
+    justify-content: center;
+}
+button:hover{
+    background-color: #33334d;
+}
+input{
+    width:33rem;
+    height: 1.2rem;
+    border-radius: 0.3rem;
+    background-color: #313146;
+    border:1px solid;
+    color:white;
+    border-color:rgb(109, 109, 109);
+}
+input:hover{
+    background-color: #42425a;
+}
+#mid{
+    position: relative;
+    left:0rem;
+}
+#right{
+    box-sizing: border-box;
+    background-color: #151515;
+    height: 100%;
+    width:15rem;
+    border-radius: 10px;
+    
+}
+#sidebar{
+    position: fixed;
+    padding-left:0px;
+    margin:0px;
+    top:2.4rem;
+    width: 3vw;
+    height: 100vh;
+    background-color:#232334;
+    border-right:2px solid;
+    border-color:#3d3d51;
+    display: block;
+}
+.sideIcons{
+    color:white;
+    position: relative;
+    left:50%;
+    font-size: large;
+    width:15px;
+    padding-top:7px;
+    padding-bottom: 10px;
+    margin:0px;
+}
+.sideIcons:hover{
+    cursor: pointer;
+    border-right:2px solid rgb(151, 255, 255);
+}
+#editor{
+    position: fixed;
+    height:100vh;
+    left:3.1vw;
+    top:2.4rem;
+    width:11rem;
+    background-color:#232334;
+    z-index:-1;
+}
